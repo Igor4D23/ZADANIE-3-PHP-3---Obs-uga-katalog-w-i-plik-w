@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background: white;
+    
+}
+
+
+table {
+    width: 100%;
+    margin-top: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #47db34;
+    color: rgb(0, 0, 0);
+}
+
+td {
+    padding: 10px;
+}
+
+
+input[type="text"] {
+    padding: 8px;
+    width: 150px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
